@@ -43,7 +43,8 @@ footer {
 /*CSS first section*/
 .first-section {
   display: flex;
-  gap: 45%;
+  justify-content: space-between;
+  margin-right: 3%;
 }
 /*CSS first section*/
 
@@ -81,8 +82,8 @@ footer {
 
 /*link properties*/
 a {
- text-decoration: none;
- color:#000;
+  text-decoration: none;
+  color:#000;
 }
 
 a:hover {
