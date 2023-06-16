@@ -34,3 +34,152 @@ body {
   text-decoration: none;
   color: var(--donker);
 }
+
+footer {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+/*CSS first section*/
+.first-section {
+  display: flex;
+  gap: 45%;
+}
+/*CSS first section*/
+
+/*CSS second section*/
+.second-section {
+  margin-top: 10%;
+}
+
+/*data properties*/
+.Data {
+  margin-right: 8%;
+}
+
+.first-text {
+  margin-top: 45px;
+  line-height: 25px;
+}
+
+.second-text {
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 12px;
+}
+/*data properties*/
+
+.heading {
+  display: flex;
+  gap: 15%;
+}
+
+.about {
+  display: grid;
+  line-height: 250%;
+}
+
+/*link properties*/
+a {
+ text-decoration: none;
+ color:#000;
+}
+
+a:hover {
+  text-decoration : underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+/*link properties*/
+
+.Help {
+  display: grid;
+  line-height: 250%;
+}
+
+.sosmed {
+  line-height: 250%;
+}
+/*CSS second section*/
+
+/*button properties*/
+button:first-child{
+  background-color: rgb(238, 130, 238);
+  color: white;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  border: 0px;
+}
+
+.button-wrap {
+  display: flex;
+  gap: 50px;
+} 
+/*button properties*/
+
+/*CSS last section*/
+.last-section {
+  margin-top: 8%;
+}
+
+.last-section p {
+  font-size: 12px;
+}
+/*CSS last section/
+
+
+/*responsive for tablet*/
+@media screen and (max-width: 768px) {
+  .first-section {
+      flex-direction: column;  
+  }
+  .button-wrap {
+      margin-top: 50px;
+      gap: 25px;
+  }
+
+  .heading {
+      flex-wrap: wrap;
+      gap: 5%;
+  }
+
+  .second-section {
+      margin-top: 25%;
+  }
+
+  .first-section {
+      margin-top: 10%;
+  }
+
+  .last-section {
+      margin-top: 25%;
+  }
+}
+/*responsive for tablet*/
+
+/*responsive for mobile*/
+@media screen and (max-width: 500px) {
+  .heading {
+      gap: 10%;
+  }
+
+  .last-section {
+      margin-top: 3%;
+  }
+
+  .first-text {
+      margin-top: 15px;
+  }
+
+  .second-text {
+      margin-top: 15px;
+      margin-bottom: 20px;
+  }
+}
+/*responsive for mobile*/
