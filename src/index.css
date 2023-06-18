@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-  --backround: #E1EBF1;
+  --backround: #F5F5F5;
+  --lightblue: #EDF1F4;
   --donker: #171833;
   --pink: #E758AF;
   --purple: #9665D9;
@@ -11,6 +12,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: var(--donker);
+  background-color: var(--backround);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -184,3 +186,47 @@ button {
   }
 }
 /*responsive for mobile*/
+
+/* home */
+.home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 800px;
+}
+.home-text{
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.home-img img{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 900px;
+  z-index: -1;
+}
+.home h1{
+  font-weight: 800;
+  font-size: 4.5rem;
+  margin: 0;
+}
+.home p{
+  word-wrap: break-word;
+  width: 580px;
+  font-weight: 400;
+}
+.home button{
+  font-weight: 500;
+  background-color: var(--purple);
+  color: var(--backround);
+  transition: 0.3s;
+}
+.home button:hover{
+  background-color: var(--lightblue);
+  color: var(--donker);
+}
+/* home */
