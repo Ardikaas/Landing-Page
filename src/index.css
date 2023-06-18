@@ -230,3 +230,83 @@ button {
   color: var(--donker);
 }
 /* home */
+
+/* testimonial */
+.testimoni{
+  margin: 5%;
+  padding: 80px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: var(--purple);
+}
+.testimoni-text h1{
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--backround);
+}
+.carousel{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.element{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dot{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  color: var(--backround);
+}
+.arrow{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.card{
+  background-color: var(--backround);
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 500px;
+  border: 0.1px solid var(--purple);
+  border-radius: 25px;
+}
+.card-img img{
+  width: 100px;
+  border-radius: 100%;
+}
+.card-name{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.card-name h1{
+  margin: 0;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.card-name h5{
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.card-text p{
+  padding-top: 10px;
+  font-weight: 400;
+  word-wrap: break-word;
+  width: 450px;
+  margin: 0;
+}
+/* testimonial */
