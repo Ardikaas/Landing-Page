@@ -9,7 +9,6 @@ const Testimoni = () => {
       const result = await fetch(baseUrl)
       result.json().then(result => {
         setData(result)
-        console.log(result)
       })
     }
     fetchData();
@@ -32,19 +31,6 @@ const Testimoni = () => {
       </div>
       <div className="carousel">
         <Test />
-      </div>
-      <div className="element">
-        <div className="dot">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </div>
-        <div className="arrow">
-          <h4 className="left">kiri</h4>
-          <h4 className="right">kanan</h4>
-        </div>
       </div>
     </div>
   )

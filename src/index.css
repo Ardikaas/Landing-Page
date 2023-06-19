@@ -11,6 +11,8 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
   color: var(--donker);
   background-color: var(--backround);
@@ -232,12 +234,16 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .fecardres-con{
   display: flex;
   flex-direction: column;
-  margin: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 .blue{
   background-image: url(./components/assets/boxblue.svg);
@@ -268,6 +274,8 @@ button {
   margin: 0;
   font-size: 1.5rem;
   font-weight: 500;
+  word-wrap: break-word;
+  width: 250px;
 }
 .fecard-text p{
   margin: 0;
@@ -275,6 +283,12 @@ button {
   font-weight: 400;
   word-wrap: break-word;
   width: 250px;
+}
+.fecard-text a{
+  padding-top: 5px;
+  font-weight: 500;
+  font-size: 0.7rem;
+  /* text-decoration: underline; */
 }
 /* features */
 
@@ -295,26 +309,10 @@ button {
   color: var(--backround);
 }
 .carousel{
+  overflow-x: auto;
   display: flex;
   flex-direction: row;
   gap: 30px;
-}
-.element{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.dot{
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-  color: var(--backround);
-}
-.arrow{
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
 }
 .card{
   background-color: var(--backround);
