@@ -5,6 +5,7 @@
   --lightblue: #EDF1F4;
   --donker: #171833;
   --pink: #E758AF;
+  --lightpink: #F4DFEB;
   --purple: #9665D9;
 }
 
@@ -231,9 +232,39 @@ button {
 }
 /* home */
 
+/* about */
+.about{
+  background-color: var(--lightpink);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8%;
+  padding: 80px;
+}
+.about-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-text h1{
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.about-text p{
+  padding-top: 10px;
+  font-weight: 500;
+  word-wrap: break-word;
+  font-size: 0.9rem;
+  /* width: 450px; */
+  margin: 0;
+}
+/* about */
+
 /* testimonial */
 .testimoni{
-  margin: 5%;
+  margin: 8%;
   padding: 80px;
   border-radius: 50px;
   display: flex;
