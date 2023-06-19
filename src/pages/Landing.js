@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Features from "../components/Feature";
 import Footer from "../components/Footer";
 import Home from "../components/Home";
 import Navbar from "../components/Navbar";
@@ -10,6 +11,7 @@ const Landing = () => {
       <Navbar />
       <Home />
       <About />
+      <Features />
       <Testimoni />
       <Footer />
     </div>

@@ -1,16 +1,16 @@
 import Card from "./Card"
 import image from "../components/assets/icebear.jpg"
-import { getTesti } from "./api.js"
-import { useEffect, useState } from "react"
+// import { getTesti } from "./api.js"
+// import { useEffect, useState } from "react"
 
 const Testimoni = () => {
-  const [testi, setTesti] = useState([])
-  useEffect(() => {
-    getTesti().then((result) => {
-      setTesti(result)
-    })
-  }, [])
-  console.log({testimonial : testi})
+  // const [testi, setTesti] = useState([])
+  // useEffect(() => {
+  //   getTesti().then((result) => {
+  //     setTesti(result)
+  //   })
+  // }, [])
+  // console.log({testimonial : testi})
 
   const name = "Udin Selamet"
   const email = "udinselametgmail.com"
