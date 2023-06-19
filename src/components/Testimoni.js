@@ -1,28 +1,37 @@
 import Card from "./Card"
-import image from "../components/assets/icebear.jpg"
-// import { getTesti } from "./api.js"
-// import { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
 const Testimoni = () => {
-  // const [testi, setTesti] = useState([])
-  // useEffect(() => {
-  //   getTesti().then((result) => {
-  //     setTesti(result)
-  //   })
-  // }, [])
-  // console.log({testimonial : testi})
+  const baseUrl = 'https://ardikaas.github.io/simple-api/testi.json'
+  const [data, setData] = useState([])
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = await fetch(baseUrl)
+      result.json().then(result => {
+        setData(result)
+        console.log(result)
+      })
+    }
+    fetchData();
+  }, []);
 
-  const name = "Udin Selamet"
-  const email = "udinselametgmail.com"
-  const text = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus debitis deserunt maiores maxime cum, commodi doloremque dolorem quo quis voluptates numquam nobis quidem fugit, sapiente corporis ipsa veritatis ipsum."
+  const Test = () => {
+    return data.map((id, i) => {
+      return (
+        <div key={i}>
+          <Card text={id.text} name={id.name} email={id.email} image={id.image}/>
+        </div>
+      )
+    })
+  }
+
   return(
     <div className="testimoni">
       <div className="testimoni-text">
         <h1>Testimonials</h1>
       </div>
       <div className="carousel">
-        <Card text={text} name={name} email={email} image={image}/>
-        <Card text={text} name={name} email={email} image={image}/>
+        <Test />
       </div>
       <div className="element">
         <div className="dot">
