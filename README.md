@@ -20,6 +20,6 @@ React uses a declarative syntax, where developers describe how the UI should loo
 ## why we make this landing page?
 We chose to develop a landing page project using the React framework due to our college assignment. React is the perfect choice to tackle this task because of its ability to build responsive and interactive user interfaces. By utilizing React, we can easily create reusable UI components that can be assembled together to form a complex landing page layout. Additionally, React provides efficient state management, allowing us to easily handle and update the necessary data within the page. Throughout the development of this assignment, we can leverage the extensive ecosystem of React tools and libraries that will enhance the functionality and performance of our application. Using React, we aim to deliver an appealing and responsive landing page that meets the requirements of our college assignment.
 
-## where you can see our project result
+## where you can see our project result?
 this is it boys : <br />
 [Landing Page](https://landing-page-b5lqsu98w-ardikaas.vercel.app/)
