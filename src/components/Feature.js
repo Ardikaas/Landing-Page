@@ -15,7 +15,7 @@ const Features = () => {
   const improvetex = "We never tire in our pursuit of continuous improvement and feature enhancement to ensure the comfort, security, and additional benefits for our users. Your satisfaction is our priority. "
 
   return (
-    <div className="features">
+    <div className="features" id="features">
       <div className="features-text">
         <h1>Features</h1>
         <p>Some of features and advantages that we provide for those of you who store data in this Data Warehouse</p>

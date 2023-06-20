@@ -8,7 +8,7 @@ import Testimoni from "../components/Testimoni"
 const Landing = () => {
   return(
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Home />
       <About />
       <Features />

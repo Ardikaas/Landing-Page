@@ -1,13 +1,25 @@
+import image from './assets/logo.png'
+
 const Navbar = () => {
   return(
     <div class="navbar-con">
-      <div class="logo">
-        <img src="" alt=""></img>
+      <div className="normal">
+        <div className="left">
+          <div class="logo">
+            <img src={image} alt=""></img>
+          </div>
+          <div class="navbar-menu">
+            <a href="#about">About</a>
+            <a href="*">Help</a>
+            <a href="#features">Features</a>
+          </div>
+        </div>
+        <div className="right">
+          <a href="*">Request Demo</a>
+        </div>
       </div>
-      <div class="navbar-menu">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+      <div className="hamburg">
+
       </div>
     </div>
   )
