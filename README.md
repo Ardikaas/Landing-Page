@@ -22,4 +22,4 @@ We chose to develop a landing page project using the React framework due to our 
 
 ## where you can see our project result?
 this is it boys : <br />
-[Landing Page](https://landing-page-b5lqsu98w-ardikaas.vercel.app/)
+[Landing Page](https://landing-page-lime-sigma.vercel.app/)
