@@ -132,6 +132,19 @@ body {
   background-color: var(--lightpink);
   border-radius: 20px;
 }
+/* ======================= */
+.kebawah.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 0.3s ease;
+}
+.kebawah.inactive{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
 /* navbar */
 
 /* footer */
