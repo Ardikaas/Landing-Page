@@ -76,15 +76,24 @@ body {
 /* ======================= */
 .hamburg{
   display: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   background-color: var(--backround);
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 20px;
   top: 0px;
+}
+.logo-ham{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-ham img{
+  width: 75px;
+}
+.logo i{
+  width: 75px;
 }
 .beda{
   background-color: var(--lightpink);
@@ -94,8 +103,35 @@ body {
   color: var(--donker);
   text-decoration: none;
   transition: 0.3s;
+  padding: 10px;
 }
-
+.beda:hover{
+  background-color: var(--pink);
+  color: var(--backround);
+}
+.kebawah{
+  position: absolute;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--lightblue);
+  padding: 30px;
+  border-radius: 15px;
+}
+.kebawah a{
+  color: var(--donker);
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.kebawah a:hover{
+  background-color: var(--lightpink);
+  border-radius: 20px;
+}
 /* navbar */
 
 /* footer */
@@ -464,13 +500,19 @@ button {
   
 }
 @media(max-width: 992px){
-  
+  .normal{
+    display: none;
+  }
+  .hamburg{
+    display: flex;
+  }
 }
 @media(max-width: 690px){
-  
 }
 @media(max-width: 576px){
-  
+  .kebawah{
+    position: unset;
+  }
 }
 @media(max-width: 342px){
   
