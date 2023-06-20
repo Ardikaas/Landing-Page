@@ -336,20 +336,17 @@ button {
 }
 .blue{
   background-image: url(./components/assets/boxblue.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 345px;
 }
 .pink{
   background-image: url(./components/assets/boxpink.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 345px;
 }
 .fecard{
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-size: 345px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .fecard-img img{
   width: 300px;
@@ -499,6 +496,11 @@ button {
     width: 100%;
     max-width: 550px;
   }
+
+  .fecard-img img{
+    width: 100%;
+    max-width: 300px;
+  }
 }
 @media(max-width: 1024px){
   /* home */
@@ -517,6 +519,7 @@ button {
     max-width: 400px;
   }
   /* home */
+
   /* about */
   .about-section{
     padding: 20px;
@@ -537,6 +540,25 @@ button {
     max-width: 400px;
   }
   /* about */
+  
+  /* features */
+  .fecard{
+    background-size: 300px;
+  }
+  .fecard-img img{
+    width: 100%;
+    max-width: 300px;
+  }
+  .fecard-text h2{
+    width: 180px;
+    font-size: 1.2rem;
+  }
+  .fecard-text p{
+    font-size: 0.7rem;
+    width: 180px;
+  }
+  /* features */
+
   .normal{
     display: none;
   }
@@ -561,6 +583,7 @@ button {
     max-width: 300px;
   }
   /* home */
+
   /* about */
   .about-text{
     width: 300px;
@@ -578,6 +601,36 @@ button {
     max-width: 300px;
   }
   /* about */
+
+  /* features */
+  .features-text{
+    gap: 25px;
+  }
+  .features-text h1{
+    font-size: 2rem;
+  }
+  .features-text p{
+    font-size: 0.8rem;
+  }
+  .fecard{
+    background-size: 225px;
+  }
+  .fecard-text{
+    gap: 5px;
+  }
+  .fecard-img img{
+    width: 100%;
+    max-width: 300px;
+  }
+  .fecard-text h2{
+    width: 150px;
+    font-size: 0.9rem;
+  }
+  .fecard-text p{
+    font-size: 0.5rem;
+    width: 150px;
+  }
+  /* features */
 }
 @media(max-width: 610px){
   /* home */
@@ -599,6 +652,7 @@ button {
     font-size: 0.7rem;
   }
   /* home */
+
   /* about */
   .about-section{
     padding: 20px;
@@ -619,6 +673,37 @@ button {
     max-width: 400px;
   }
   /* about */
+
+  /* features */
+  .features-text{
+    gap: 25px;
+  }
+  .features-text h1{
+    font-size: 2rem;
+  }
+  .features-text p{
+    font-size: 0.8rem;
+    width: 400px;
+  }
+  .fecard-container{
+    flex-direction: column;
+  }
+  .fecard{
+    background-size: 345px;
+  }
+  .fecard-img img{
+    width: 100%;
+    max-width: 270px;
+  }
+  .fecard-text h2{
+    width: 180px;
+    font-size: 1.1rem;
+  }
+  .fecard-text p{
+    font-size: 0.6rem;
+    width: 180px;
+  }
+  /* features */
 }
 @media(max-width: 500px){
   /* home */
@@ -640,6 +725,7 @@ button {
     max-width: 300px;
   }
   /* home */
+
   /* about */
   .about-section{
     padding: 20px;
@@ -664,6 +750,44 @@ button {
     max-width: 400px;
   }
   /* about */
+
+  /* features */
+  .features-text{
+    gap: 20px;
+  }
+  .features-text h1{
+    font-size: 2rem;
+  }
+  .features-text p{
+    font-size: 0.8rem;
+    width: 400px;
+  }
+  .fecard{
+    background-size: 270px;
+  }
+  .fecard-container{
+    gap: 20px;
+  }
+  .fecardres-con{
+    gap: 20px;
+  }
+  .fecard-text{
+    gap: 3px;
+  }
+  .fecard-img img{
+    width: 100%;
+    max-width: 200px;
+  }
+  .fecard-text h2{
+    width: 180px;
+    font-size: 1rem;
+  }
+  .fecard-text p{
+    font-size: 0.6rem;
+    width: 180px;
+  }
+  /* features */
+
   .kebawah{
     position: unset;
   }
@@ -686,6 +810,7 @@ button {
     max-width: 250px;
   }
   /* home */
+
   /* about */
   .about-section{
     padding: 20px;
@@ -710,4 +835,38 @@ button {
     max-width: 300px;
   }
   /* about */
+
+  /* features */
+  .features-text{
+    gap: 15px;
+  }
+  .features-text h1{
+    font-size: 1.8rem;
+  }
+  .features-text p{
+    font-size: 0.6rem;
+    width: 300px;
+  }
+  .fecard{
+    background-size: 400px;
+  }
+  .fecard-container{
+    gap: 20px;
+  }
+  .fecardres-con{
+    gap: 20px;
+  }
+  .fecard-img img{
+    width: 100%;
+    max-width: 200px;
+  }
+  .fecard-text h2{
+    width: 100px;
+    font-size: 0.8rem;
+  }
+  .fecard-text p{
+    font-size: 0.5rem;
+    width: 100px;
+  }
+  /* features */
 }
