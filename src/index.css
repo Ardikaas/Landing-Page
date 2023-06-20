@@ -408,13 +408,11 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 500px;
   border: 0.1px solid var(--purple);
   border-radius: 25px;
 }
 .card-img img{
-  width: 100px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 .card-name{
   display: flex;
@@ -496,10 +494,13 @@ button {
     width: 100%;
     max-width: 550px;
   }
-
   .fecard-img img{
     width: 100%;
     max-width: 300px;
+  }
+  .card-img img{
+    width: 100%;
+    max-width: 100px;
   }
 }
 @media(max-width: 1024px){
@@ -558,6 +559,23 @@ button {
     width: 180px;
   }
   /* features */
+
+  /* testimoni */
+  .card-img img{
+    width: 100%;
+    max-width: 100px;
+  }
+  .card-name h1{
+    font-size: 1rem;
+  }
+  .card-name h5{
+    font-size: 0.8rem;
+  }
+  .card-text p{
+    font-size: 0.7rem;
+    width: 200px;
+  }
+  /* testimoni */
 
   .normal{
     display: none;
@@ -631,6 +649,23 @@ button {
     width: 150px;
   }
   /* features */
+
+  /* testimoni */
+  .card-img img{
+    width: 100%;
+    max-width: 100px;
+  }
+  .card-name h1{
+    font-size: 1rem;
+  }
+  .card-name h5{
+    font-size: 0.8rem;
+  }
+  .card-text p{
+    font-size: 0.7rem;
+    width: 200px;
+  }
+  /* testimoni */
 }
 @media(max-width: 610px){
   /* home */
@@ -704,6 +739,16 @@ button {
     width: 180px;
   }
   /* features */
+
+  /* testimoni */
+  .card-img img{
+    width: 100%;
+    max-width: 100px;
+  }
+  .testimoni-text h1{
+    font-size: 2rem;
+  }
+  /* testimoni */
 }
 @media(max-width: 500px){
   /* home */
@@ -788,6 +833,29 @@ button {
   }
   /* features */
 
+  /* testimoni */
+  .testimoni{
+    padding: 50px;
+    align-items: center;
+  }
+  .carousel{
+    flex-direction: column;
+  }
+  .card-img img{
+    width: 100%;
+    max-width: 80px;
+  }
+  .card-name h1{
+    font-size: 1rem;
+  }
+  .card-name h5{
+    font-size: 0.8rem;
+  }
+  .card-text p{
+    font-size: 0.7rem;
+  }
+  /* testimoni */
+
   .kebawah{
     position: unset;
   }
@@ -869,4 +937,27 @@ button {
     width: 100px;
   }
   /* features */
+
+  /* testimoni */
+  .testimoni{
+    padding: 20px;
+    align-items: center;
+  }
+  .card{
+    padding: 15px;
+  }
+  .card-img img{
+    width: 100%;
+    max-width: 70px;
+  }
+  .card-name h1{
+    font-size: 0.9rem;
+  }
+  .card-name h5{
+    font-size: 0.7rem;
+  }
+  .card-text p{
+    font-size: 0.6rem;
+  }
+  /* testimoni */
 }

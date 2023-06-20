@@ -2,7 +2,7 @@ import image from './assets/logo.png'
 
 const Navbar = () => {
   return(
-    <div class="navbar-con">
+    <div className="navbar-con">
       <div className="normal">
         <div className="left">
           <div class="logo">
